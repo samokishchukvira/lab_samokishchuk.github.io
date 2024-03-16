@@ -1,0 +1,23 @@
+.circle {
+    margin: 35px 0 0 30px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 30px blue, inset 0 0 0 30px yellow; 
+}
+.circle p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

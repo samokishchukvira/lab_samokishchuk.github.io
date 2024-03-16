@@ -27,7 +27,7 @@ img {
 }
 header {
 	height: 138px;
-	background-image: white;/**/
+	background-image: url("assets/images/header.png") ;/**/
 	background-repeat: no-repeat; 
 	background-size: contain; 
 	background-position: center; 
